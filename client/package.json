@@ -24,26 +24,6 @@
     "redux-thunk": "^2.2.0",
     "simple-line-icons": "^2.4.1"
   },
-  "proxy": {
-    "/auth*": {
-      "target": "http://localhost:3001"
-    },
-    "/auth/completed": {
-      "target": "http://localhost:3001"
-    },
-    "/cases*": {
-      "target": "http://localhost:3001"
-    },
-    "/keys": {
-      "target": "http://localhost:3001"
-    },
-    "/offer/*": {
-      "target": "http://localhost:3001"
-    },
-    "/items": {
-      "target": "http://localhost:3001"
-    }
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

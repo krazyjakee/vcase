@@ -51,7 +51,7 @@ $ make static-files
 Run the server
 
 ```
-$ NODE_ENV=production STEAM_API_KEY="STEAM API KEY" BASE_URL="http://vcase.gg" SESSION_KEY="SOME_RANDOM_KEY" PORT=3001 VGO_URL="https://api-trade.opskins.com" VGO_API_KEY="SOME_API_KEY" AFFILIATE_ADDRESS="0x939826f5acff002bf6b898fb8151cac83b2401" npm run server
+$ NODE_ENV=production STEAM_API_KEY="STEAM API KEY" BASE_URL="http://vcase.gg" SESSION_KEY="SOME_RANDOM_KEY" PORT=3000 VGO_URL="https://api-trade.opskins.com" VGO_API_KEY="SOME_API_KEY" AFFILIATE_ADDRESS="0x939826f5acff002bf6b898fb8151cac83b2401" npm run server
 ```
 
 ### Configuration variables
@@ -70,7 +70,7 @@ $ NODE_ENV=production STEAM_API_KEY="STEAM API KEY" BASE_URL="http://vcase.gg" S
 The application provides a simple health check endpoint that can be used to monitor the status of the app.
 
 ```
-$ curl http://localhost:3001/health
+$ curl http://localhost:3000/health
 {"api":"up"}
 ```
 

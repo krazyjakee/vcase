@@ -38,7 +38,7 @@ const configs = {
   development: function() {
     return {
       baseURL: 'http://localhost:3000',
-      port: 3001,
+      port: 3000,
       vgoURL: 'http://localhost:3002',
       vgoAPIKey: 'somekey',
       affiliateAddress: '0x0000000000000000',
@@ -55,7 +55,7 @@ const configs = {
   qa: function() {
     return {
       baseURL: 'http://localhost:3000',
-      port: 3001,
+      port: 3000,
       vgoURL: 'http://localhost:3002',
       vgoAPIKey: 'somekey',
       affiliateAddress: '0x0000000000000000',
